@@ -7,7 +7,7 @@
 4. Any dead cell with 3 live neighbors becomes live cell (reproduction)
 
 ## Example
-
-| 0 | 1 | 1 |   | 0 | 0 | 1 |
-| 0 | 1 | 0 | =>| 0 | 0 | 0 |
-| 0 | 0 | 0 |   | 0 | 0 | 0 |
+```
+stage_0 = [[0,1,1],[0,0,1],[0,0,0]]
+stage_1 = [[0,0,1],[0,0,0],[0,0,0]]
+```
