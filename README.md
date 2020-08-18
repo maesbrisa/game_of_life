@@ -5,3 +5,9 @@
 2. Any live cell with 2 or 3 live neighbors lives (next generation)
 3. Any live cell with +3 live neighbors dies (over population)
 4. Any dead cell with 3 live neighbors becomes live cell (reproduction)
+
+## Example
+
+0 1 1       0 0 1
+0 0 1  =>   0 0 0
+0 0 0       0 0 0
