@@ -59,5 +59,5 @@ if __name__ == "__main__":
         next_stage = get_next_stage(board)
         logging.info(next_stage)
         board = next_stage
-    phase += 1
+        phase += 1
     logging.info('End')
