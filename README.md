@@ -1,5 +1,7 @@
 # game_of_life
 
+![pytest](https://github.com/maesbrisa/game_of_life/workflows/CI/badge.svg)
+
 ## Requirements
 1. Any live cell with less than 2 live neighbors dies (under population)
 2. Any live cell with 2 or 3 live neighbors lives (next generation)
