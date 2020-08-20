@@ -2,6 +2,8 @@
 
 ![pytest](https://github.com/maesbrisa/game_of_life/workflows/CI/badge.svg)
 
+Another wibbily wobbly timey wimey...stuff related with [Conway's game of life](https://conwaylife.com/).
+
 ## Requirements
 1. Any live cell with less than 2 live neighbors dies (under population)
 2. Any live cell with 2 or 3 live neighbors lives (next generation)
