@@ -13,3 +13,12 @@
 stage_0 = [[0,1,1],[0,0,1],[0,0,0]]
 stage_1 = [[0,0,1],[0,0,0],[0,0,0]]
 ```
+
+## How to test it
+There is a simple interface to enter the matrix values and test the next stage (only one, work in progress).
+```
+python game_of_life.py
+```
+Here is a input example:
+
+![Input example](./example.png)
