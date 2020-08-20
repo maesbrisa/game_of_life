@@ -17,7 +17,7 @@ stage_1 = [[0,0,1],[0,0,0],[0,0,0]]
 ```
 
 ## How to test it
-There is a simple interface to enter the matrix values and test the next stage (only one, work in progress).
+There is a simple interface to enter the matrix values and test all phases until there is no live cell.
 ```
 python game_of_life.py
 ```
