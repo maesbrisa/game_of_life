@@ -37,22 +37,12 @@ def get_next_stage(init) -> list:
                     print('neighbor alive')
                     counter_alives += 1
             print('counter alives ', str(counter_alives))
-            if counter_alives == 3 or counter_alives == 2:
+            if counter_alives == 3:
+                next_stage[y][x] = 1
+            elif counter_alives == 2 and init[y][x] == 1:
                 next_stage[y][x] = 1
             else:
                 next_stage[y][x] = 0
-
-           # if next_stage[y][x] == 0:
-           #     if counter_alives == 3 or counter_alives == 2:
-           #         next_stage[y][x] = 1
-           #     else:
-           #         next_stage[y][x] = 0
-           # else:
-           #     if counter_alives == 3:
-           #         next_stage[y][x] = 1
-           #     else:
-           #         next_stage[y][x] = 0
-
     return next_stage
 
 if __name__ == "__main__":    
