@@ -41,5 +41,26 @@ def get_next_stage(init) -> list:
                 next_stage[y][x] = 1
             else:
                 next_stage[y][x] = 0
+
+           # if next_stage[y][x] == 0:
+           #     if counter_alives == 3 or counter_alives == 2:
+           #         next_stage[y][x] = 1
+           #     else:
+           #         next_stage[y][x] = 0
+           # else:
+           #     if counter_alives == 3:
+           #         next_stage[y][x] = 1
+           #     else:
+           #         next_stage[y][x] = 0
+
     return next_stage
 
+if __name__ == "__main__":    
+    rows = int(input('Number of rows > '))
+    columns = int(input('Number of columns > '))
+    print('Enter ' + str(rows*columns) + ' values as follows: 1 0 0')
+    board = []
+    for y in range(rows):
+        row = list(map(int, input().split()))
+        board.append(row)
+    print(get_next_stage(board))
