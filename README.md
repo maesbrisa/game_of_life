@@ -4,7 +4,7 @@
 
 Another wibbily wobbly timey wimey...stuff related with [Conway's game of life](https://conwaylife.com/).
 
-## Requirements
+## Rules
 1. Any live cell with less than 2 live neighbors dies (under population)
 2. Any live cell with 2 or 3 live neighbors lives (next generation)
 3. Any live cell with +3 live neighbors dies (over population)
